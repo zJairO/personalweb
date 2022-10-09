@@ -9,13 +9,17 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/simple-grid.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/IMG_4144.png') }}" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/62b00c34e4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container left mt-5" style="padding-bottom: 14px;">
         <div class="row">
             <div class="col-12">
-                <span class="green">$ cat</span> <span class="orange">about_me.txt</span>
+                <span class="green"><i class="fa-solid fa-ghost"></i> cat</span> <span class="orange"> <a class="orange" href="#about_me">about_me.txt</a></span>
+            </div>
+            <div class="col-12" id="about_me">
+                ------------------------------------------
             </div>
             <div class="col-12">
                 <img class="img" src="{{ url_for('static', filename='images/IMG_4144.png') }}" />
@@ -32,24 +36,24 @@
                 Love to program anything, learn stuff every day and be part of open source community.
             </div>
             <div class="col-12">
-                Leave you some links:
-            </div>
-            <div class="col-12">
-                <a class="orange" href="https://dev.to/zjairo" target="_blank">blog</a>
-                <a class="orange" href="https://www.youtube.com/channel/UC3Zxq2C-1m0jOKGDT0Fbrbw"
-                    target="_blank">youtube</a>
-                <a class="orange" href="https://github.com/zjairo" target="_blank">github</a>
-                <a class="orange" href="https://discord.gg/mexicodev" target="_blank">discord</a>
-                <a class="orange" href="mailto:hello@zjairo.com" target="_blank">mail</a>
-            </div>
-            <div class="col-12">
                 If you want to buy me a coffee here is my bitcoin address: <a class="orange" href="https://btcscan.org/address/bc1q003y9pr2c6gz72dw7cagsgd397nuwvq4gdp29x">bc1q003y9pr2c6gz72dw7cagsgd397nuwvq4gdp29x</a>
             </div>
             <div class="col-12">
-                See you later! :)
+                See you later! 
             </div>
             <div class="col-12">
-                <span class="green">$</span> _
+                <a class="orange" href="https://dev.to/zjairo" target="_blank"><i class="fa-solid fa-square-rss"></i></a>
+                <a class="orange" href="https://www.youtube.com/channel/UC3Zxq2C-1m0jOKGDT0Fbrbw"
+                    target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a class="orange" href="https://github.com/zjairo" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                <a class="orange" href="https://discord.gg/mexicodev" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a class="orange" href="mailto:hello@zjairo.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="col-12">
+                ------------------------------------------
+            </div>
+            <div class="col-12">
+                <span class="green"><i class="fa-solid fa-ghost"></i></span> _
             </div>
         </div>
     </div>
