@@ -93,6 +93,7 @@ p {
   border: solid;
   padding: 1em;
   padding-bottom: 10em;
+  border-radius: 10px;
 }
 
 .row {
