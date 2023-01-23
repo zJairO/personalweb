@@ -90,10 +90,9 @@ p {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  border: solid;
   padding: 1em;
   padding-bottom: 10em;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .row {
